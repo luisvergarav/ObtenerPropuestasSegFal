@@ -26,7 +26,7 @@ public class Client {
             request.setCodigoRamo(1);
             request.setEstado(1);
             request.setNumeroDocumento(1);
-            request.setTipoCliente("Tipo Cliente");
+            request.setTipoCliente("Tipo Cliente1");
             request.setTipoDocumento("TipoDocumento");
 
             List<PolizaResponse> lista =
