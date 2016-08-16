@@ -14,7 +14,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-import javax.ejb.Stateless;
+
 
 import net.sf.json.JSON;
 import net.sf.json.JSONArray;
@@ -22,7 +22,7 @@ import net.sf.json.JSONObject;
 import net.sf.json.JSONSerializer;
 
 
-@Stateless(name = "ProductoAplicarSeguroCliente", mappedName = "EJB-SEG")
+
 public class ProductoAplicarSeguroClienteBean implements ProductoAplicarSeguroClienteRemote,
                                                          ProductoAplicarSeguroClienteLocal {
 

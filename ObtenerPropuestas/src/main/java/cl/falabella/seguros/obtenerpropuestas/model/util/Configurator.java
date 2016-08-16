@@ -12,7 +12,7 @@ public class Configurator {
     
     private Properties properties = null;
     
-    private Configurator(){
+    private Configurator() throws Exception{
         InputStream inputStream = null;
         
         try{
@@ -24,11 +24,11 @@ public class Configurator {
             properties.load(inputStream);
             
         } catch(Exception e){
-            e.printStackTrace();
+        	throw new Exception("Error en properties, verificar configuracion " + e.getLocalizedMessage());
         }
     }
     
-    public static Configurator getInstance(){
+    public static Configurator getInstance() throws Exception{
         if(instance == null){
             instance = new Configurator();
         }
