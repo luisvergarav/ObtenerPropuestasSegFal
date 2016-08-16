@@ -25,13 +25,13 @@ import net.sf.json.JSONSerializer;
 
 public class ProductoAplicarSeguroClienteBean implements ProductoAplicarSeguroClienteRemote,
                                                          ProductoAplicarSeguroClienteLocal {
-
+  
 
 
     public ProductoAplicarSeguroClienteBean() {
     }
 
-
+    //Retorno Propuestas polizas
     public List<PolizaResponse> obtenerPropuestasPolizas(PolizaRequest polizaRequest) throws Exception {
 
         ClientePropuestasPolizasTransformer clienteTrans =
