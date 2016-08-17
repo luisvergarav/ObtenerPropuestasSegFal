@@ -19,10 +19,10 @@ public class WSInvoker {
     }
     
     public String processMessage(String uri,String sourceMessage) throws Exception {
-                String xslPath = null;
+                
                 String url = uri;
                 String wsPropValue = null;
-                //ClientConfig config = new ClientConfig();
+                
                 Client client = ClientBuilder.newClient(/*(Configuration)config*/);
                 
                     try {
