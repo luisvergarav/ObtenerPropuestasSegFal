@@ -16,11 +16,18 @@ public class Configurator {
         InputStream inputStream = null;
         
         try{
-            
+            /*
             inputStream = new FileInputStream(Constants.RESOURCES_PATH + 
                                             Constants.RESOURCE_PROPERTIES_DIR + 
                                             Constants.RESOURCE_PROPERTIES_FILE);
+            
+            */
+        	
+            inputStream =  this.getClass().getClassLoader().getResourceAsStream(Constants.RESOURCES_PATH +                     
+                    Constants.RESOURCE_PROPERTIES_FILE);
+            
             properties = new Properties();
+            
             properties.load(inputStream);
             
         } catch(Exception e){

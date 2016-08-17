@@ -22,7 +22,7 @@ import net.sf.json.JSONObject;
 import net.sf.json.JSONSerializer;
 
 
-
+  
 public class ProductoAplicarSeguroClienteBean implements ProductoAplicarSeguroClienteRemote,
                                                          ProductoAplicarSeguroClienteLocal {
   

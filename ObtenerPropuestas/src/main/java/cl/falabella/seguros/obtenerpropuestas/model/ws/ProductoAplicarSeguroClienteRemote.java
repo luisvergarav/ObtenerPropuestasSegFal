@@ -10,6 +10,8 @@ import java.util.List;
 
 
 
+
+
 public interface ProductoAplicarSeguroClienteRemote {
     
     public List<PolizaResponse> obtenerPropuestasPolizas(PolizaRequest polizaRequest) throws Exception ;

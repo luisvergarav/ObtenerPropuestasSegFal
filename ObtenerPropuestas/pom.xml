@@ -6,6 +6,15 @@
 	<version>0.0.1-SNAPSHOT</version>
 
 	<build>
+	 <resources>
+        <resource>
+        <targetPath>Corp</targetPath>
+            <directory>src/main/resources/Corp</directory>
+            <includes>
+                <include>**/*.properties</include>
+            </includes>
+        </resource>
+    </resources>
 		<plugins>
 			<!-- any other plugins -->
 			<plugin>
@@ -16,7 +25,7 @@
 					<archive>
 						<manifest>
 							<addClasspath>true</addClasspath>							
-							
+							<classpathPrefix>dependency-jars</classpathPrefix>
 						</manifest>
 					</archive>
 				</configuration>
@@ -55,7 +64,6 @@
 		</dependency>
 
 
-	
 
 
 		<!-- https://mvnrepository.com/artifact/log4j/log4j -->
