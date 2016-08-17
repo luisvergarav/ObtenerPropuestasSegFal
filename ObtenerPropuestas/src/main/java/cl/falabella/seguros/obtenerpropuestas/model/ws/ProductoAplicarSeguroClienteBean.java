@@ -9,9 +9,7 @@ import cl.falabella.seguros.obtenerpropuestas.model.entities.PolizaRequest;
 import cl.falabella.seguros.obtenerpropuestas.model.entities.PolizaResponse;
 
 import cl.falabella.seguros.obtenerpropuestas.model.util.Configurator;
-
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 
 
