@@ -64,6 +64,7 @@ public class WSInvoker {
                                                 //log.debug("[[DEBUG]] --> Output from Server .... \n");
                                                 //log.debug("[[DEBUG]] -->"  + wsResponse);                        
                                                 
+                                                
                                                 //if (!wsResponse.contains("OK")) throw new Exception(wsResponse);
 
                                                 client.close();    
