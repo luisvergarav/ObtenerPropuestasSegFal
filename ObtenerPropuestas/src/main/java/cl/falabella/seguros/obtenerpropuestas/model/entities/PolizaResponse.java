@@ -13,7 +13,7 @@ public class PolizaResponse implements Serializable {
 	private static final long serialVersionUID = -7728837478898483469L;
 	private String rpCarpDeRamo;
 	private String cgRvMeaning;
-	private Integer poCapoNuPolizaCedente;
+	private String poCapoNuPolizaCedente;
 	private ClienteAsegurado clienteAsegurado;
 	private CertificadoPoliza certificadoPoliza;
 	private ContratoPoliza contratoPoliza;
@@ -34,11 +34,11 @@ public class PolizaResponse implements Serializable {
 		return cgRvMeaning;
 	}
 
-	public void setPoCapoNuPolizaCedente(Integer poCapoNuPolizaCedente) {
+	public void setPoCapoNuPolizaCedente(String poCapoNuPolizaCedente) {
 		this.poCapoNuPolizaCedente = poCapoNuPolizaCedente;
 	}
 
-	public Integer getPoCapoNuPolizaCedente() {
+	public String getPoCapoNuPolizaCedente() {
 		return poCapoNuPolizaCedente;
 	}
 
